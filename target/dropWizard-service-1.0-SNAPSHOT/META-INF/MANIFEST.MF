@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Built-By: javierlar
+Build-Jdk: 1.6.0_65
+Class-Path: dropwizard-core-0.7.0.jar dropwizard-util-0.7.0.jar jackso
+ n-annotations-2.3.0.jar guava-16.0.1.jar jsr305-2.0.3.jar joda-time-2
+ .3.jar dropwizard-jackson-0.7.0.jar jackson-core-2.3.2.jar jackson-da
+ tabind-2.3.2.jar jackson-datatype-guava-2.3.2.jar jackson-module-afte
+ rburner-2.3.2.jar jackson-datatype-joda-2.3.2.jar logback-classic-1.1
+ .1.jar dropwizard-validation-0.7.0.jar hibernate-validator-5.0.2.Fina
+ l.jar validation-api-1.1.0.Final.jar jboss-logging-3.1.1.GA.jar class
+ mate-1.0.0.jar javax.el-2.2.6.jar javax.el-api-2.2.5.jar dropwizard-c
+ onfiguration-0.7.0.jar jackson-dataformat-yaml-2.3.2.jar commons-lang
+ -2.6.jar dropwizard-logging-0.7.0.jar metrics-logback-3.0.1.jar slf4j
+ -api-1.7.6.jar jul-to-slf4j-1.7.6.jar logback-core-1.1.1.jar log4j-ov
+ er-slf4j-1.7.6.jar jetty-util-9.0.7.v20131107.jar dropwizard-metrics-
+ 0.7.0.jar dropwizard-jersey-0.7.0.jar jersey-core-1.18.1.jar jersey-s
+ erver-1.18.1.jar jersey-servlet-1.18.1.jar metrics-jersey-3.0.1.jar m
+ etrics-annotation-3.0.1.jar jackson-jaxrs-json-provider-2.3.2.jar jac
+ kson-jaxrs-base-2.3.2.jar jackson-module-jaxb-annotations-2.3.2.jar d
+ ropwizard-servlets-0.7.0.jar dropwizard-jetty-0.7.0.jar metrics-jetty
+ 9-3.0.1.jar jetty-server-9.0.7.v20131107.jar jetty-io-9.0.7.v20131107
+ .jar jetty-servlet-9.0.7.v20131107.jar jetty-security-9.0.7.v20131107
+ .jar jetty-servlets-9.0.7.v20131107.jar jetty-continuation-9.0.7.v201
+ 31107.jar jetty-http-9.0.7.v20131107.jar dropwizard-lifecycle-0.7.0.j
+ ar metrics-core-3.0.1.jar metrics-jvm-3.0.1.jar metrics-servlets-3.0.
+ 1.jar metrics-json-3.0.1.jar metrics-healthchecks-3.0.1.jar argparse4
+ j-0.4.3.jar javax.servlet-3.0.0.v201112011016.jar jetty-setuid-java-1
+ .0.2.jar mongo-java-driver-2.12.2.jar
+Created-By: Apache Maven 3.2.1
+Main-Class: application.ServiceApplication
+Archiver-Version: Plexus Archiver
+
