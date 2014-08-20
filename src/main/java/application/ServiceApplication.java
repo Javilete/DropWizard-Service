@@ -5,6 +5,8 @@ import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 import resources.DefaultAppResource;
+import resources.DefaultEmailResource;
+import resources.DefaultSettingsResource;
 
 public class ServiceApplication extends Application<AppConfiguration> {
 
@@ -28,6 +30,8 @@ public class ServiceApplication extends Application<AppConfiguration> {
                 configuration.getDefaultName()
         );
 
-        environment.jersey().register(new DefaultAppResource(configuration.getTemplate(),configuration.getDefaultName()));
+        environment.jersey().register(resource);
+        environment.jersey().register(new DefaultEmailResource());
+        environment.jersey().register(new DefaultSettingsResource());
     }
 }

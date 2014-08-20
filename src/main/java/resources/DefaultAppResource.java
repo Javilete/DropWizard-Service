@@ -1,5 +1,6 @@
 package resources;
 
+
 import com.google.common.base.Optional;
 import core.Saying;
 
@@ -7,7 +8,7 @@ import javax.ws.rs.Path;
 import java.util.concurrent.atomic.AtomicLong;
 
 @Path("/app-service")
-public final class DefaultAppResource extends AppResource {
+public class DefaultAppResource extends AppResource {
 
     private final String template;
     private final String defaultName;
@@ -25,4 +26,3 @@ public final class DefaultAppResource extends AppResource {
         return new Saying(counter.incrementAndGet(), value);
     }
 }
-
